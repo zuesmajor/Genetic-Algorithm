@@ -10,7 +10,7 @@ tmp/
 local.properties
 .settings
 .loadpath
-
+bin
 # Eclipse Core
 .project
 
