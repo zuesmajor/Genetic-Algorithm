@@ -55,32 +55,7 @@ public class Random_Shapes
 		}
 		
 		lastEnemy.drawPoly();
-		
 
-		/**
-		 * Enemy Evolver Algorithm
-		 * 
-		 * 1. Generate a population of random shapes
-		 * 2. Evaluate each shape
-		 * 3. Kill off poorly evaluated shapes
-		 * 4. Replace killed shaped with new shapes using mutation/crossover
-		 * 5. Repeat from 2 until a satisfactory shape is found or until a set number of generations
-		 * 6. Draw the final shape on screen
-		 * 
-		 * Your task is to implement this algorithm so that the program
-		 * generates shapes that look like enemies.
-		 * 
-		 * The toughest part is probably the evaluation function. How do
-		 * you measure when a shape looks like an enemy ship, or even
-		 * just a "ship" in general? Is symmetry important? What about
-		 * the distribution of the points? What about the number of 
-		 * points? Length of line segments?
-		 * 
-		 * Also consider the original generation algorithm, and the
-		 * genetic modifiers. You don't need to use mutation and crossover.
-		 * Even if you do use mutation and crossover, you can modify
-		 * them to fit the problem.
-		 */
 		myWindow.setVisible(true);
 
 	}
